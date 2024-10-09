@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
   }
   
@@ -13,10 +13,10 @@
     font-size: 20px;
     font-family: math;
     font-style: italic;
-  } */
+  }
   
   /* css header start */
-  /* .navbar {
+  .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,11 +30,11 @@
     height: 50px;
     margin-left: 30px;
     margin-right: 10px;
-  } */
+  }
   /* css header end */
   
   /* main start */
-  /* .main {
+  .main {
     display: flex;
     justify-content: center;
   }
@@ -110,11 +110,12 @@
   }
   .container-tiga {
     padding-top: 20px;
-  } */
+  }
   /* main end */
   
   /* footer start */
-  /* .footer {
+  .footer {
+    /* height: 90px; */
     padding: 5px;
     width: 100%;
     text-align: center;
@@ -137,14 +138,14 @@
   
   a:hover {
     color: red;
-  } */
+  }
   /* footer end */
   
-  /* @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
     .main{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-  } */
+  }
   
