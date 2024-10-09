@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>convert celcius to fahrenheit</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+<!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="navbar">
+      <img
+        src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png"
+        alt=""
+      />
+      <h1>Kalkulator Konversi Suhu</h1>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="main">
+      <div class="box-satu">
+        <!-- form content -->
+        <section>
+          <!-- instruksi -->
+          <article>
+            <p>
+              Masukan suhu derajat Celcius (&deg;C) ke kotak bawah, lalu klik
+              tombol konversi <br />
+              untuk mendapatkan hasil koversi dalam bentuk Fahrenheit (&deg;F)
+            </p>
+          </article>
+
+          <!-- inputan suhu -->
+            <div class="container-satu">
+              <div>
+              <label for="">Celcius(&deg;C)</label>
+            </div>
+            <input type="number" id="input-suhu"></input>
+          </div>
+
+          <div class="btn">
+            <button type="button" class="form-btn form-btn-konversi" onclick="validateForm()">Konversi</button>
+            <button type="button" class="form-btn form-btn-reset" onclick="reset()">Reset</button>
+          </div>
+
+          <!-- hasil inputan -->
+          <div class="container-dua">
+            <div>
+              <label for="">Fahrenheit(&deg;F)</label>
+            </div>
+
+            <textarea id="hasil-suhu"></textarea>
+          </div>
+
+          <!-- cara kalkulasi -->
+          <div>
+            <div class="container-tiga">
+              <label for="">Cara kalkulasi</label>
+            </div>
+            <textarea name="" id="cara-kalkulasi"></textarea>
+          </div>
+        </section>
+      </div>
+
+      <!-- info content -->
+      <div class="box-dua">
+        <section>
+          <header>
+            <h2>Cara Konversi Celcius ke Fahrenheit</h2>
+          </header>
+
+          <article>
+            <p>
+              Suhu <span class="suhu-style">S</span> dalam derajat Fahrenheit
+              (&deg;F) sama dengan suhu <span class="suhu-style">S</span> <br> dalam
+              derajat Celcius (&deg;C) kali 9/5 tambah 32
+            </p>
+
+            <p>
+              <span class="suhu-style">S</span><sub>(&deg;F)</sub>=(<span class="suhu-style">S</span><sub>(&deg;C)</sub> x 9/5) + 32
+            </p>
+
+            <p>
+              atau
+            </p>
+
+            <p>
+              <span class="suhu-style">S</span><sub>(&deg;F)</sub>=(<span class="suhu-style">S</span><sub>(&deg;C)</sub> x 1.8) + 32
+            </p>
+            </p>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <p class="paragraf-link">Made by:</p>
+      <p>
+        <span
+          ><a href="https://www.instagram.com/dikrighaniyyu/"
+            >Dikri Ghaniyyu Rahman</a
+          ></span
+        >
+        | RevoU | 2024
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
